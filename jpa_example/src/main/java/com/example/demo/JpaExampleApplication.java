@@ -65,6 +65,14 @@ public class JpaExampleApplication {
 //		
 //		repo.delete(user.get());
 		
+		//GET USER BY NAME
+//		List<User> users = repo.getUserByName("VAIBHAV");
+//		System.out.println(users.toString());
+		
+		//GET USER BY NAME and ID
+//		List<User> users = repo.findByNameAndId("VAIBHAV", 1);
+//		System.out.println(users.toString());
+//		
 	}
 
 }
