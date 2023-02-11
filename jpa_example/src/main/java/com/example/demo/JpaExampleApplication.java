@@ -72,7 +72,31 @@ public class JpaExampleApplication {
 		//GET USER BY NAME and ID
 //		List<User> users = repo.findByNameAndId("VAIBHAV", 1);
 //		System.out.println(users.toString());
-//		
+
+		//GET ALL USERS USING JPQL	
+		//List<User> users = repo.getAllUsers();
+		//System.out.println(users.toString());
+		
+		//GET USER BY NAME USING JPQL
+		//List<User> users = repo.getUserByNamee("VAIBHAV");
+		//System.out.println(users.toString());
+		
+		//GET USER BY NAME AND ID USING JPQL
+		//User user = repo.getUserByNameeAndId("VAIBHAV", 1);
+		//System.out.println(user.toString());
+		
+		//GET ALL USERS USING NATIVE QUERY	
+		//List<User> users = repo.getAllUserss();
+		//System.out.println(users.toString());
+		
+		//GET USER BY NAME USING NATIVE QUERY
+		//List<User> users = repo.getUserByNameee("VAIBHAV");
+		//System.out.println(users.toString());
+		
+		//GET USER BY NAME AND ID USING NATIVE QUERY
+		//User user = repo.getUserByNameeAndIdd("VAIBHAV", 1);
+		//System.out.println(user.toString());
+				
 	}
 
 }
