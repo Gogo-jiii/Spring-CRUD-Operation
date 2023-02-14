@@ -18,6 +18,8 @@ public class JpaExampleApplication {
 		ApplicationContext context =  SpringApplication.run(JpaExampleApplication.class, args);
 		UserRepo repo =  context.getBean(UserRepo.class);
 		
+		System.out.println("Hi 1");
+		System.out.println("Hi 2");
 		//SAVE
 //		User user = new User();
 //		user.setId(1);
@@ -86,9 +88,9 @@ public class JpaExampleApplication {
 		//System.out.println(user.toString());
 		
 		//GET ALL USERS USING NATIVE QUERY	
-		//List<User> users = repo.getAllUserss();
-		//System.out.println(users.toString());
-		
+//		List<User> users = repo.getAllUserss();
+//		System.out.println(users.toString());
+
 		//GET USER BY NAME USING NATIVE QUERY
 		//List<User> users = repo.getUserByNameee("VAIBHAV");
 		//System.out.println(users.toString());
